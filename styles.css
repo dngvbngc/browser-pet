@@ -3,7 +3,7 @@
   bottom: -5px;
   right: 0;
   z-index: 1000;
-  width: 5vw;
+  width: 100px;
   animation: upAndDown 1s infinite;
   svg {
     width: 100%;
