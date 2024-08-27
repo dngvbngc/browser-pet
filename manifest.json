@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Pet Pomodoro Reminder",
+  "version": "1.1",
+  "description": "This browser pet will remind you to take a break every 30 minutes spent on the same page.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "images/pet.png",
+    "32": "images/pet.png",
+    "48": "images/pet.png",
+    "128": "images/pet.png"
+  },
+  "permissions": ["activeTab"]
+}
