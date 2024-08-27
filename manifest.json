@@ -15,6 +15,5 @@
     "32": "images/pet.png",
     "48": "images/pet.png",
     "128": "images/pet.png"
-  },
-  "permissions": ["activeTab"]
+  }
 }
